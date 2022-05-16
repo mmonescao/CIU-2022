@@ -1,0 +1,45 @@
+
+body {
+    background-image: url("https://i0.wp.com/hipertextual.com/wp-content/uploads/2021/05/Classic-Old-TV.jpg?fit=2000%2C1200&ssl=1");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+
+    display: flex;
+    align-items:center;
+    justify-content:flex-start;
+    flex-direction: column;
+    flex-basis: auto;
+}
+
+header{
+    color: #e6131de8; /*El color de netflix */
+    font-size: 60px;
+    text-shadow: 2px 2px 5px black;
+}
+
+table{
+    background-color: rgba(163, 163, 163, 0.747) ;
+    border-radius: 10px;
+}
+
+th{
+    padding: 5px;
+    text-align: center;
+    
+}
+
+td{
+    padding: 5px;
+    text-align: center;
+}
+
+input{
+    padding: 2px;
+    border-radius: 5px;
+}
+
+button{
+    border-radius: 5px;
+}

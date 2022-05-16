@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tus Series</title>
+    <link  href="estilo.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>Tus Series</header>
+    <div class="buscador">
+        <input type="text" name="search" placeholder="Ingresar nombre de serie" id="search_serie">
+        <button id="search">Buscar</button>
+    </div>
+    <br>
+    <div class="grilla">
+        <table id="tablaSeries">
+            <thead>
+                <th>&nbsp;</th>
+                <th>Nombre</th>
+                <th>Temporada</th>
+                <th>Temp. Vistas</th>
+                <th>% Visto</th>
+            </thead>
+            <tbody id="contenido">
+            <tr>
+                <td><input type="radio" name="opt" id="1"></td>
+                <td class="nombre">Chiquititas</td>
+                <td>5</td>
+                <td>2</td>
+                <td><input type="number" readonly></td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="opt" id="2"></td>
+                <td class="nombre">Cebollitas</td>
+                <td>5</td>
+                <td>2</td>
+                <td><input type="number" readonly></td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="opt" id="3"></td>
+                <td class="nombre">Power Rangers</td>
+                <td>5</td>
+                <td>2</td>
+                <td><input type="number" readonly></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <div> <span> <button id="sumar">+</button> </span> <span> <button id="restar">-</button> </span></div>
+    
+
+    
+    <script src="main.js"></script>
+</body>
+</html>
