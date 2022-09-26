@@ -1,0 +1,151 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+    text-align: center;
+    padding-top: 15px;    
+    background-image: url(https://wallpaperaccess.com/full/462860.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 180px;
+}
+
+header h1 {
+    font-family: 'Modak', cursive;
+    font-size: 60px;
+    color: #BC5D3B;
+}
+
+nav ul li{
+    padding: 10px;
+    display: inline-block;
+    font-size: x-large;
+}
+
+label {
+    float: right; 
+}
+
+section {
+    background-color: #E9D5BE;
+    height: 800px;
+    padding: 100px;
+    color: #425B21;
+    font-family: 'Fredoka One', cursive;
+}
+
+#menu_detalle {
+    background-color: #E9D5BE;
+    height: 1500px;
+    padding: 50px 100px;
+    color: #425B21;
+    font-family: 'Fredoka One', cursive;
+}
+
+.col-sm {
+    text-align: center;
+}
+
+.responsive {
+    max-width: 100%;
+    height: 100%;
+}
+
+footer {
+    background-image: url(https://wallpaperaccess.com/full/462860.jpg);
+    background-position: bottom;
+    background-size: cover;
+    height: 310px;
+}
+
+footer h1 {
+    text-align: center;
+    display: block;
+    color: #BC5D3B;
+    font-family: 'Fredoka One', cursive;
+}
+
+#info {
+    padding-top: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+}
+
+footer img {
+    margin-left: 35%;
+}
+
+footer p  {
+    font-size: 17.5px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 60px;
+    color: #E9D5BE;
+    background-color: #BC5D3B;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    font-family: 'Fredoka One', cursive;
+    padding-right: 70%;
+}
+
+footer a {
+    color: #E9D5BE;
+}
+
+html.dark-mode .con-modo-oscuro {
+    filter: invert(100%);
+}
+
+@media (max-width: 1250px) {
+    header h1 {
+        font-size: 40px;
+    }
+    svg {
+       width: 30px;
+       height: 30px; 
+    }
+    footer p  {
+        font-size: 15px;
+        margin-bottom: 65px;
+    }
+    footer img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    footer ul {
+        padding-left: 60px;
+        margin-left: auto;
+    }
+    
+}
+
+@media (max-width: 1200px) {
+
+    section img {
+        width: "50PX";
+        height: "300px";
+    }
+    footer p  {
+        font-size: 14px;
+        margin-bottom: 60px;
+    }
+    footer a {
+        font-size: 1px;
+    }
+    
+}
+
+@media (max-width: 575px) {
+
+    .container {
+        margin-top: auto;
+        padding-top: 20px;
+    }
+    
+}
