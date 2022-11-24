@@ -1,0 +1,27 @@
+.body {
+  width: auto;
+  height: fit-content; 
+}
+
+h2 {
+  text-align: center;
+}
+
+.carousel {
+  width:600px;
+  height:500px;
+  margin-left: 25px;
+  margin-right: 10px;
+}
+
+.footer {
+  max-height: fit-content;
+  background-color: rgb(255, 96, 96);
+}
+
+@media (max-width: 1669px) {
+  .carousel {
+    width:auto;
+    height:auto;
+  }
+}
